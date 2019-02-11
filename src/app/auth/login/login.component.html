@@ -1,32 +1,42 @@
-<mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
-  <mdb-carousel-item>
-    <div class="view w-100">
-      <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide" />
-      <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+<form class="border border-light p-5">
+  <p class="h4 mb-4 text-center">Sign in</p>
+
+  <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail" />
+
+  <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password" />
+
+  <div class="d-flex justify-content-between">
+    <div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember" />
+        <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+      </div>
     </div>
-    <div class="carousel-caption">
-      <h3 class="h3-responsive">Light mask</h3>
-      <p>First text</p>
+    <div>
+      <a href="">Forgot password?</a>
     </div>
-  </mdb-carousel-item>
-  <mdb-carousel-item>
-    <div class="view w-100">
-      <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide" />
-      <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-    </div>
-    <div class="carousel-caption">
-      <h3 class="h3-responsive">Strong mask</h3>
-      <p>Secondary text</p>
-    </div>
-  </mdb-carousel-item>
-  <mdb-carousel-item>
-    <div class="view w-100">
-      <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide" />
-      <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
-    </div>
-    <div class="carousel-caption">
-      <h3 class="h3-responsive">Slight mask</h3>
-      <p>Third text</p>
-    </div>
-  </mdb-carousel-item>
-</mdb-carousel>
+  </div>
+
+  <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
+
+  <div class="text-center">
+    <p>
+      Not a member?
+      <a href="">Register</a>
+    </p>
+
+    <p>or sign in with:</p>
+    <a type="button" class="light-blue-text mx-2">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a type="button" class="light-blue-text mx-2">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a type="button" class="light-blue-text mx-2">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a type="button" class="light-blue-text mx-2">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+</form>

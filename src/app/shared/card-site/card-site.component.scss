@@ -1,0 +1,20 @@
+#buttonFloat {
+  border-radius: 50% !important;
+  width: 50px !important;
+  height: 50px !important;
+  position: relative !important;
+  top: -25px;
+  -webkit-box-shadow: 2px 5px 26px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 5px 26px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 5px 26px -1px rgba(0, 0, 0, 0.75);
+  &:hover {
+    -webkit-box-shadow: 2px 8px 26px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 8px 26px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 8px 26px -1px rgba(0, 0, 0, 0.75);
+  }
+}
+#buttonFloat i {
+  color: rgb(255, 255, 255) !important;
+  position: relative !important;
+  top: 14px;
+}

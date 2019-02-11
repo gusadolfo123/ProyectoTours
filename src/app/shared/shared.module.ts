@@ -6,11 +6,30 @@ import {SidebarComponent} from './sidebar/sidebar.component';
 import {RouterModule} from '@angular/router';
 import {SliderComponent} from './slider/slider.component';
 import {MaterialModule} from '../main/material.module';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {CardSiteComponent} from './card-site/card-site.component';
+import {PackageComponent} from './package/package.component';
 
 @NgModule({
-  imports: [CommonModule, RouterModule, MaterialModule],
-  declarations: [FooterComponent, NavbarComponent, SidebarComponent, SliderComponent],
-  // indica a angular que estos pueden ser usados externamente (en el Dashboard para este ejemplo)
-  exports: [FooterComponent, NavbarComponent, SidebarComponent, SliderComponent, MaterialModule],
+  imports: [CommonModule, RouterModule, MaterialModule, FormsModule, ReactiveFormsModule],
+  declarations: [
+    FooterComponent,
+    NavbarComponent,
+    SidebarComponent,
+    SliderComponent,
+    CardSiteComponent,
+    PackageComponent,
+  ],
+  exports: [
+    FooterComponent,
+    NavbarComponent,
+    SidebarComponent,
+    SliderComponent,
+    MaterialModule,
+    FormsModule,
+    ReactiveFormsModule,
+    CardSiteComponent,
+    PackageComponent,
+  ],
 })
 export class SharedModule {}
