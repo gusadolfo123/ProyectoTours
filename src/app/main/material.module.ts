@@ -11,6 +11,7 @@ import {
   CardsFreeModule,
 } from 'angular-bootstrap-md';
 import {FormsModule} from '@angular/forms';
+// For MDB Angular Free
 
 @NgModule({
   imports: [
