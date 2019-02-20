@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@angular-devkit/core/src/workspace/workspace-schema.json",
   "version": 1,
   "newProjectRoot": "projects",
-  "defaultProject": "mdb-angular-free",
+  "defaultProject": "Tours",
   "projects": {
     "mdb-angular-free": {
       "root": "",
@@ -12,7 +12,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/mdb-angular-free",
+            "outputPath": "dist/Tours",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
